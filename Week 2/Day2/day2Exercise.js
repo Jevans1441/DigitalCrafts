@@ -1,3 +1,20 @@
+//                              JS 101 WARM-up
+//1
+firstName = 'Josh';
+//2
+console.log(`${firstName} is cool.`);
+//3
+const daysUntilChristmas = 25 - 1;
+console.log(`Days until Christmas, ${daysUntilChristmas}`);
+const frontTeeth = 'my two front teeth';
+//4
+console.log(`All I want for Christmas is ${frontTeeth}`);
+//5
+function decemberCountdown(date, today) {
+    return date - today;
+}
+console.log(decemberCountdown(31, 1))
+
 //                              JS 101 Explore Objects
 
 const josh = {
@@ -22,18 +39,14 @@ console.log(josh)
 josh.likesCookes = true;
 console.log(`Josh likes cookies is ${josh.likesCookes}.`);
 
-//                              JS 101 WARM-up
-//1
-firstName = 'Josh';
-//2
-console.log(`${firstName} is cool.`);
-//3
-const daysUntilChristmas = 25 - 1;
-console.log(`Days until Christmas, ${daysUntilChristmas}`);
-const frontTeeth = 'my two front teeth';
-//4
-console.log(`All I want for Christmas is ${frontTeeth}`);
-//5
+//                              JS 101 Explore Arrays
+const digitalCraftsCrew = ['Jamie', 'Dr. Vicki', 'Jada', 'Dee', 'Ernesto', 'Robbie'];
+console.log(digitalCraftsCrew.length)
+digitalCraftsCrew.push('Prof Roberts')
+console.log(digitalCraftsCrew)
+digitalCraftsCrew.pop()
+console.log(digitalCraftsCrew)
+console.log(digitalCraftsCrew.indexOf('Dr. Vicki'))
 
 //                              JS 101 Practice Exercises
 //1

@@ -1,0 +1,125 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(96, 150px);
+    grid-auto-rows: 45px;
+    padding: 1px;
+    margin: 2px;
+    border-color: black;
+    border: 1px;
+    grid-gap: 3px;
+}
+
+.topbar {
+    background-color: gray;
+    padding: 5px;
+    text-align: center;
+    font-size: 10px;
+    grid-column-start: 1;
+    grid-column-end: 13;
+}
+.blackbar {
+    background-color: green;
+    padding: 5px;
+    grid-column-start: 1;
+    grid-column-end: 13;
+}
+
+.side1 {
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 13;
+}
+
+.side2 {
+    background-color: rgb(253, 16, 253);
+    padding: 5px;
+    text-align: center;
+    grid-column-start: 12;
+    grid-row-start: 3;
+    grid-row-end: 13;
+}
+
+
+.grid1 div {
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    padding: 2px;
+    margin: 1px;
+    border-color: black;
+}
+.grid2 div {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 12;
+    grid-row-start: 4;
+    padding: 2px;
+    border-color: black;
+}
+.grid3 div {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 12;
+    grid-row-start: 5;
+    padding: 2px;
+    border-color: black;
+}
+.grid4 div {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 12;
+    grid-row-start: 6;
+    padding: 2px;
+    border-color: black;
+}
+.grid5 div {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 12;
+    grid-row-start: 7;
+    padding: 2px;
+    border-color: black;
+}
+.grid6 div {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 12;
+    grid-row-start: 8;
+    padding: 2px;
+    border-color: black;
+}
+.grid7 div {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 12;
+    grid-row-start: 9;
+    padding: 2px;
+    border-color: black;
+}
+.grid8 div {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 12;
+    grid-row-start: 10;
+    padding: 2px;
+    border-color: black;
+}
+
+.red {
+    background-color: red;
+
+}
+
+.yellow {
+    background-color: yellow;
+    
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+}

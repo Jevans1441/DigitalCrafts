@@ -1,18 +1,24 @@
+body {
+    background-color: black;
+}
+
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(14);
-    grid-template-rows: repeat(8);
+    grid-template-columns: repeat(13);
+    grid-template-rows: repeat(16);
 
 }
 
 .topbar {
-    background-color: gold;
+    background-color: black;
+    color: white;
     padding: 5px;
-    text-align: center;
+    text-align: right;
     font-size: 10px;
     grid-column-start: 1;
     grid-column-end: 16;
 }
+
 .blackbar {
     background-color: gray;
     padding: 5px;
@@ -26,74 +32,69 @@
     text-align: center;
     grid-column-start: 1;
     grid-row-start: 3;
-    grid-row-end: 14;
+    grid-row-end: 16;
+    margin-right: 7px;
 }
 
 .side2 {
     background-color: gray;
     padding: 5px;
     text-align: center;
-    grid-column-start: 14;
+    grid-column-start: 15;
     grid-row-start: 3;
-    grid-row-end: 14;
+    grid-row-end: 16;
+    height: 350px;
+    margin-left: 5px;
 }
-
-
 .grid1 div {
+    display: inline-grid;
     grid-column-start: 2;
-    grid-row-start: 3;
-    padding: 2px;
-    margin: 1px;
-    border-color: black;
+    margin-top: 15px;
+    width: 72px;
+    height: 10px;
+    flex-wrap: wrap;
 }
 .grid2 div {
+    display: inline-grid;
     grid-column-start: 2;
-    grid-row-start: 4;
-    margin: 1px;
-    padding: 2px;
-    border-color: black;
+    width: 72px;
+    height: 10px;
 }
 .grid3 div {
+    display: inline-grid;
     grid-column-start: 2;
-    grid-row-start: 5;
-    padding: 2px;
-    margin: 1px;
-    border-color: black;
+    width: 72px;
+    height: 10px;
 }
 .grid4 div {
+    display: inline-grid;
     grid-column-start: 2;
-    grid-row-start: 6;
-    margin: 1px;
-    padding: 2px;
-    border-color: black;
+    width: 72px;
+    height: 10px;
 }
 .grid5 div {
+    display: inline-grid;
     grid-column-start: 2;
-    grid-row-start: 7;
-    margin: 1px;
-    padding: 2px;
-    border-color: black;
+    width: 72px;
+    height: 10px;
 }
 .grid6 div {
+    display: inline-grid;
     grid-column-start: 2;
-    grid-row-start: 8;
-    margin: 1px;
-    padding: 2px;
-    border-color: black;
+    width: 72px;
+    height: 10px;
 }
 .grid7 div {
+    display: inline-grid;
     grid-column-start: 2;
-    grid-row-start: 9;
-    margin: 1px;
-    padding: 2px;
-    border-color: black;
+    width: 72px;
+    height: 10px;
 }
 .grid8 div {
+    display: inline-grid;
     grid-column-start: 2;
-    grid-row-start: 10;
-    margin: 1px;
-    padding: 2px;
-    border-color: black;
+    width: 72px;
+    height: 10px;
 }
 
 .red {

@@ -52,7 +52,6 @@ body {
     margin-top: 15px;
     width: 72px;
     height: 10px;
-    flex-wrap: wrap;
 }
 .grid2 div {
     display: inline-grid;
@@ -96,7 +95,11 @@ body {
     width: 72px;
     height: 10px;
 }
-
+.grid9 div {
+    display: inline-grid;
+    grid-column-start: 10;
+    grid-row-start: 14;
+}
 .red {
     background-color: red;
 }
@@ -108,4 +111,8 @@ body {
 }
 .blue {
     background-color: blue;
+}
+
+.grey {
+    background-color: grey;
 }

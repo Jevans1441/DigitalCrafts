@@ -4,9 +4,8 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(13);
-    grid-template-rows: repeat(16);
-
+    grid-template-columns: repeat(4);
+    grid-template-rows: repeat(8);
 }
 
 .topbar {
@@ -23,83 +22,78 @@ body {
     background-color: gray;
     padding: 5px;
     grid-column-start: 1;
-    grid-column-end: 16;
+    grid-column-end: 17;
 }
 
 .side1 {
     background-color: gray;
     padding: 5px;
-    text-align: center;
     grid-column-start: 1;
     grid-row-start: 3;
     grid-row-end: 16;
-    margin-right: 7px;
+    margin-right: 25px;
+    width: 8vh;
 }
 
 .side2 {
     background-color: gray;
     padding: 5px;
-    text-align: center;
-    grid-column-start: 15;
+    grid-column-start: 16;    
     grid-row-start: 3;
     grid-row-end: 16;
     height: 350px;
-    margin-left: 5px;
+    width: 8vh;
 }
 .grid1 div {
     display: inline-grid;
     grid-column-start: 2;
     margin-top: 15px;
-    width: 72px;
+    width: 14vh;
     height: 10px;
 }
 .grid2 div {
     display: inline-grid;
     grid-column-start: 2;
-    width: 72px;
+    width: 14vh;
     height: 10px;
 }
 .grid3 div {
     display: inline-grid;
     grid-column-start: 2;
-    width: 72px;
+    width: 14vh;
     height: 10px;
 }
 .grid4 div {
     display: inline-grid;
     grid-column-start: 2;
-    width: 72px;
+    width: 14vh;
     height: 10px;
 }
 .grid5 div {
     display: inline-grid;
     grid-column-start: 2;
-    width: 72px;
+    width: 14vh;
     height: 10px;
 }
 .grid6 div {
     display: inline-grid;
     grid-column-start: 2;
-    width: 72px;
+    width: 14vh;
     height: 10px;
 }
 .grid7 div {
     display: inline-grid;
     grid-column-start: 2;
-    width: 72px;
+    width: 14vh;
     height: 10px;
 }
 .grid8 div {
     display: inline-grid;
     grid-column-start: 2;
-    width: 72px;
+    width: 14vh;
     height: 10px;
 }
-.grid9 div {
-    display: inline-grid;
-    grid-column-start: 10;
-    grid-row-start: 14;
-}
+
 .red {
     background-color: red;
 }
@@ -111,8 +105,4 @@ body {
 }
 .blue {
     background-color: blue;
-}
-
-.grey {
-    background-color: grey;
 }

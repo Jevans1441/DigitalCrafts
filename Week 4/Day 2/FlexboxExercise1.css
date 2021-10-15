@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    background-color: gray;
+}
+.center {
+    border: 1px black;
+    align-self: center;
+    padding: 5px;
+
+}

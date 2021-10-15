@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    align-items: stretch;
+    align-content: stretch;
+    height: 500px;
+}
+ 
+.red {
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    background-color: lightcoral;  
+
+}
+.blue {
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    background-color: lightblue;
+}
+    .yellow {
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    background-color: lightyellow;
+
+}

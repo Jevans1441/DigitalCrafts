@@ -153,30 +153,5 @@ console.log(makeBanner);
 // Leetspeak
 
 function leetSpeak(var1) {
-    let A = '';
-    let E = '';
-    let G = '';
-    let I = '';
-    let O = '';
-    let S = '';
-    let T = '';
-
-    for (i = 1; i <= var1; i++) {
-        if (i <= 4) {
-            A = '4';
-        } else if (i <= 3) {
-            E = '3';
-        } else if (i <= 6) {
-            G = '6';
-        } else if (i <= 1) {
-            I = 'I';
-        } else if (i <= 0) {
-            O = '0';
-        } else if (i <= 5) {
-            S = '5';
-        } else if (i <= 7) {
-            T = '7';
-        }
-            
-    }
+    
 }

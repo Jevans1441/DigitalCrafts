@@ -94,5 +94,89 @@ function printSquare(var1) {
     return square;
 }
 let makeSquare = printSquare(5);
-console.log(makeSquare);
+// console.log(makeSquare);
 
+//Print a Box
+
+function printBox(var1, var2) {
+    let topAndBottom = '';
+    let sides = '';
+    let square = '';
+
+    for (i = 1; i <= var1; i++){
+        topAndBottom += '-';
+        if (i == var1) {
+            topAndBottom += '\n'; 
+            for (x = 1; x <= var2; x++){
+                for (n = 1; n <= var1; n++){
+                    if (n == 1) {
+                        sides += '|';
+                    } else if (n == var1) {
+                        sides += '|' + '\n';
+                    } else {
+                        sides += ' ';
+                    }
+                }
+            }
+        }
+    }
+
+    square += topAndBottom + sides + topAndBottom;
+    return square;
+}
+let makeEmptyBox = printBox(5, 5);
+console.log(makeEmptyBox)
+
+//Print a Banner
+
+function printBanner(var1) {
+    let varLength = var1.length + 4;
+    let border = '';
+    let middleBanner = '';
+    let banner = '';
+    let dash = '-';
+
+    for (i = 1; i <= varLength; i++){
+        border += dash;
+        if (i == varLength) {
+            border += '\n';
+        }
+    }
+    middleBanner = dash + ' ' + var1 + ' ' + dash + '\n';
+    banner = border + middleBanner + border;
+    return banner;
+}
+
+let makeBanner = printBanner('Welcome to DigitalCrafts');
+console.log(makeBanner);
+
+// Leetspeak
+
+function leetSpeak(var1) {
+    let A = '';
+    let E = '';
+    let G = '';
+    let I = '';
+    let O = '';
+    let S = '';
+    let T = '';
+
+    for (i = 1; i <= var1; i++) {
+        if (i <= 4) {
+            A = '4';
+        } else if (i <= 3) {
+            E = '3';
+        } else if (i <= 6) {
+            G = '6';
+        } else if (i <= 1) {
+            I = 'I';
+        } else if (i <= 0) {
+            O = '0';
+        } else if (i <= 5) {
+            S = '5';
+        } else if (i <= 7) {
+            T = '7';
+        }
+            
+    }
+}

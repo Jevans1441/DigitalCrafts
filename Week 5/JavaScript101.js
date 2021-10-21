@@ -14,6 +14,9 @@ let answerMadLib = madLib(fName, rSubject);
 
 // console.log(answerMadLib);
 
+
+
+
 //Tip Calculator
 
 function tipAmount(var1, var2) {
@@ -36,8 +39,8 @@ function tipAmount(var1, var2) {
 let tipTotal = tipAmount(100, 'good');
 // console.log(tipTotal);
 
-//Tip Calculator 2
 
+//Tip Calculator 2
 function billAmount(var1, var2) {
     let amount = var1 + var2;
     return amount;
@@ -46,8 +49,21 @@ function billAmount(var1, var2) {
 let totalBillWithTip = billAmount(100, tipTotal)
 // console.log(totalBillWithTip);
 
-//Print Numbers 
+//Tip Calculator 3
 
+function splitAmount(totalBillWithTip, people) {
+    let sAmount = totalBillWithTip / people;
+    return sAmount;
+}
+let totalSplitAmount = splitAmount(100, tipTotal, 5)
+console.log(totalSplitAmount)
+
+
+
+
+
+
+//Print Numbers 
 function printNumbersWhileLoop(var1, var2) {
     let i = var1;
     let pNumber = '';
@@ -63,6 +79,9 @@ function printNumbersWhileLoop(var1, var2) {
 let numberWithWhileLoopFunction = printNumbersWhileLoop(1, 10);
 // console.log(numberWithWhileLoopFunction);
 
+
+
+
 function printNumbersForLoop(var1, var2){
     let pNumber = '';
 
@@ -76,8 +95,10 @@ function printNumbersForLoop(var1, var2){
 let numberWithForLoop = printNumbersForLoop(1, 10);
 // console.log(numberWithForLoop)
 
-//Print a Square
 
+
+
+//Print a Square
 function printSquare(var1) {
     let astrick = '';
     let breakLine = '\n';
@@ -95,6 +116,9 @@ function printSquare(var1) {
 }
 let makeSquare = printSquare(5);
 // console.log(makeSquare);
+
+
+
 
 //Print a Box
 
@@ -125,7 +149,10 @@ function printBox(var1, var2) {
     return square;
 }
 let makeEmptyBox = printBox(5, 5);
-console.log(makeEmptyBox)
+// console.log(makeEmptyBox)
+
+
+
 
 //Print a Banner
 
@@ -149,9 +176,3 @@ function printBanner(var1) {
 
 let makeBanner = printBanner('Welcome to DigitalCrafts');
 console.log(makeBanner);
-
-// Leetspeak
-
-function leetSpeak(var1) {
-    
-}

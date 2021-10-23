@@ -24,35 +24,29 @@
 // // console.log(firstTwoElements);
 
 // let numbers = [1, 2, 3, 4, 5, 6];
-
-// console.log("My array before: " + numbers);
-
+// // console.log("My array before: " + numbers);
 // numbers.push(7);
-
-// console.log("My array after: " + numbers);
-
+// // console.log("My array after: " + nmbers);
 // numbers.splice(2, 1); // removes the number starting at the 2nd index and only the 2nd index (2, 1), it removes number 3
+// // console.log("My array after splice: " + numbers);
 
-// console.log("My array after splice: " + numbers);
+// // FOOR LOOP
 
-// FOOR LOOP
+// let friends = ["katie", "todd", "josh", "fred"];
 
-let friends = ["katie", "todd", "josh", "fred"];
-
-for (let friend = 0; friend < friends.length; friend++) {
-  console.log(friends[friend]);
-}
+// for (let friend = 0; friend < friends.length; friend++) {
+//   //   console.log(friends[friend]);
+// }
 
 // let withoutKatie = friends.slice(1, 4);
 // console.log(withoutKatie);
 
-// WHILE LOOP
+function sumOfNumbers(var1, var2) {
+  let sums = var1 + var2;
+  if (sums >= 50 && sums <= 80) {
+    return 65;
+  } else return 80;
+}
 
-// let secondFriends = ["bill", "chuck", "david", "georga", "ted"];
-// let i = 0;
-// let text = "";
-
-// while (i < secondFriends.length) {
-//   text += secondFriends[i];
-//   i++;
-// }
+console.log(sumOfNumbers(40, 20));
+console.log(sumOfNumbers(75, 20));

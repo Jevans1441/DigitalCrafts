@@ -35,6 +35,8 @@
 
 // console.log("My array after splice: " + numbers);
 
+// FOOR LOOP
+
 let friends = ["katie", "todd", "josh", "fred"];
 
 for (let friend = 0; friend < friends.length; friend++) {
@@ -43,3 +45,14 @@ for (let friend = 0; friend < friends.length; friend++) {
 
 // let withoutKatie = friends.slice(1, 4);
 // console.log(withoutKatie);
+
+// WHILE LOOP
+
+// let secondFriends = ["bill", "chuck", "david", "georga", "ted"];
+// let i = 0;
+// let text = "";
+
+// while (i < secondFriends.length) {
+//   text += secondFriends[i];
+//   i++;
+// }

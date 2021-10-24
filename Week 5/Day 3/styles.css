@@ -1,0 +1,16 @@
+.navbar {
+    display: block;
+}
+.container-fluid {
+    justify-content: center !important;
+}
+
+.list-group-item {
+    justify-content: center;
+    align-self: center;
+    background-color: #12B3EE;
+    width: 45vh;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}

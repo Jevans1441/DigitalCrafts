@@ -3,6 +3,8 @@
 }
 .container-fluid {
     justify-content: center !important;
+    background-color: white;
+    border-color: white;
 }
 
 .list-group-item {
@@ -12,5 +14,21 @@
     width: 45vh;
     margin-top: 5px;
     margin-bottom: 5px;
+    color: white;
+}
 
+.navbar.navbar-light.bg-light {
+    background-color: white !important;
+}
+.navbar-brand {
+     color:rgb(167, 161, 161) !important;
+}
+.btn-outline-success {
+    color: white;
+    background-color: #12B3EE;
+    border-color: #12B3EE;
+}
+.btn-outline-success:hover {
+    background-color: #12B3EE;
+    border-color: #12B3EE;
 }
